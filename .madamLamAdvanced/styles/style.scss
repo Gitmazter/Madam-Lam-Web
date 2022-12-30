@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.announcement {
+    height: 5vh;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin: 0px;
+}
+
+.mainItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    //font-family: 'Carter One', cursive;
+    height: 50vh;
+    width: 50vw;
+    background-color: seagreen;
+    border: 1px outset black;
+    cursor: pointer;
+    color: purple;
+    text-shadow: 3px 3px yellow;
+}
+#topLeft {
+    background-image: url(/fishies.jpg);
+    background-size: cover;
+}
+#btmLeft {
+    background-image: url(/mapCrop.jpg);
+    background-size: cover;
+}
+#topRight {
+    background-image: url(/mailmanCrop.jpg);
+    background-size: cover;
+}
+#btmRight{
+    background-image: url(/fishermen.jpg);
+    background-size: cover;
+}
+
+
+.center{
+    position: fixed;
+    font-family: 'Permanent Marker', cursive;
+    height: 30vh;
+    width: 19vw;
+    z-index: 10;
+    transform: translateX(40.25vw) translateY(34.5vh);
+    background-image: url(/logo.jpg);
+    background-size:contain;
+    border:5px outset black;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        height: 35vh;
+        width: 23vw;
+        transform: translateX(38.25vw) translateY(32vh);
+        transition:ease-in-out 0.3s;
+    }
+}
