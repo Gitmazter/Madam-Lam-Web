@@ -5,9 +5,10 @@ body {
 }
 
 .announcement {
-    height: 5vh;
+    height: 4vh;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
+    min-width: max-content;
 }
 
 .content {
@@ -15,6 +16,10 @@ body {
     width: 100vw;
     display: flex;
     margin: 0px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .mainItem {
@@ -33,19 +38,19 @@ body {
     text-shadow: 3px 3px yellow;
 }
 #topLeft {
-    background-image: url(/fishies.jpg);
+    background-image: url(../images/fishies.jpg);
     background-size: cover;
 }
 #btmLeft {
-    background-image: url(/mapCrop.jpg);
+    background-image: url(../images/mapCrop.jpg);
     background-size: cover;
 }
 #topRight {
-    background-image: url(/mailmanCrop.jpg);
+    background-image: url(../images/mailmanCrop.jpg);
     background-size: cover;
 }
 #btmRight{
-    background-image: url(/fishermen.jpg);
+    background-image: url(../images/fishermen.jpg);
     background-size: cover;
 }
 
@@ -57,7 +62,7 @@ body {
     width: 19vw;
     z-index: 10;
     transform: translateX(40.25vw) translateY(34.5vh);
-    background-image: url(/logo.jpg);
+    background-image: url(../images/logo.jpg);
     background-size:contain;
     border:5px outset black;
     border-radius: 15px;
@@ -71,4 +76,31 @@ body {
         transform: translateX(38.25vw) translateY(32vh);
         transition:ease-in-out 0.3s;
     }
+}
+.findUs {
+    margin: 0px;
+    background-image: url("../images/news.jpg"); // add a picture of crumpled newspaper or smth
+    background-size: cover;
+    height: 100vh;
+}
+
+#findUsContent {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Carter One', cursive;
+    div {
+        padding-left: 20px;
+        width: 50vw;
+        border: double 5px black;
+    }
+    iframe {
+        width: 50vw;
+        border: double 5px black;
+    }
+}
+
+.header1 {
+    font-size: 2em;
+    font-family: 'Carter One', cursive;
+    text-align: center;
 }
