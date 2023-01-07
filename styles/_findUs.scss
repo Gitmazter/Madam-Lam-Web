@@ -1,0 +1,44 @@
+/* For Find Us Page */
+.findUs {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/crumpled-paper-texture-2404554717.jpg"); // add a picture of crumpled newspaper or smth
+    background-size: contain;
+    height: 100vh;
+    h1 {
+        margin-left: 37.5vw;
+        width: 25vw;
+        border-radius: 10px;
+        border-top: none;
+
+        color: white;
+        background-color: rgba(0, 0, 0, 0.537);
+        text-shadow: black 4px 4px 4px;
+    }
+}
+
+#findUsContent {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Carter One', cursive;
+    div {
+        padding-left: 20px;
+        width: 50vw;
+        border: double 5px black;
+        background-color: white;
+    }
+    iframe {
+        width: 50vw;
+        border: double 5px black;
+        padding: 0px;
+    }
+}
+
+.header1 {
+    font-size: 2em;
+    font-family: 'Carter One', cursive;
+    text-align: center;
+}
+

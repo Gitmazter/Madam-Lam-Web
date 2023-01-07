@@ -1,0 +1,24 @@
+#topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 8vh;
+    div {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        font-size: 2em;
+        width: 20vw;
+        text-align: center;
+        background-color: yellow;
+        color: purple;
+        font-family: 'Permanent Marker', cursive;
+        padding: none;
+        height: 11vh;
+        cursor: pointer;
+        &:hover {
+            background-color: purple;
+            color: yellow;
+        }
+    }
+}
