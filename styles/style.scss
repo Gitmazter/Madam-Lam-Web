@@ -1,7 +1,15 @@
+/* CSS HEX */
+$marigold: #EFA40Fff;
+$rich-black: #131C25ff;
+$indigo-dye: #1D406Aff;
+$indigo-dye-2: #253F59ff;
+$gold-fusion: #776839ff;
+
 @import '_game';
 @import '_topnav';
 @import '_homePage';
 @import '_findUs';
+
 
 body {
     margin: 0px;
@@ -9,3 +17,11 @@ body {
     overflow-x: hidden;
 }
 
+.vietText {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 800;
+}
+
+.vietHeading {
+    font-family: 'Coiny', cursive;
+}

@@ -1,44 +1,81 @@
 /* For Find Us Page */
-.findUs {
-    margin: 0px;
-    padding: 0px;
-    background-image: url("../images/crumpled-paper-texture-2404554717.jpg"); // add a picture of crumpled newspaper or smth
-    background-size: contain;
-    height: 100vh;
-    h1 {
-        margin-left: 37.5vw;
-        width: 25vw;
-        border-radius: 10px;
-        border-top: none;
 
-        color: white;
-        background-color: rgba(0, 0, 0, 0.537);
-        text-shadow: black 4px 4px 4px;
+/* Find Us body*/
+#findUsBody {
+    display: flex;
+    flex-direction: column;
+    overflow-y: visible;
+}
+
+/* BACKGROUND */
+#findUsBg {
+    margin-top: 0px;
+    background-image: url("../images/findUsBg.jpg"); // add a picture of crumpled newspaper or smth
+    background-size: cover;
+}
+/* FOREGROUND */
+.findUs {
+    //background-color: rgba(0, 0, 0, 0.263);
+    top: 0px;
+    width: 100vw;
+    height:200vh;
+}
+
+/* HEADING */
+.header1 {
+    font-size: 2em;
+    font-family: 'Carter One', cursive;
+    text-align: center;
+    color: rgb(94, 85, 69);
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    text-decoration: underline;
+    mark {
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.515);
+        border-radius: 5px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
+/* CONTENT */
 #findUsContent {
     margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: row;
     font-family: 'Carter One', cursive;
+    justify-content: center;
+    align-items: center;
+
+    /* INFO */
     div {
         padding-left: 20px;
-        width: 50vw;
-        border: double 5px black;
-        background-color: white;
+        width: 20vw;
+        margin: 10px;
+        margin-left: 20px;
+        border-radius: 20px;
+        background-color: $marigold;
+        color: $indigo-dye-2;
+        text-shadow: 1px 1px 1px white;
+        border: 5px grey groove;
+        box-shadow: 10px 10px rgba(17, 17, 17, 0.489) ;
+        h2 {
+            text-decoration: underline;
+        }
     }
-    iframe {
-        width: 50vw;
-        border: double 5px black;
-        padding: 0px;
-    }
-}
 
-.header1 {
-    font-size: 2em;
-    font-family: 'Carter One', cursive;
-    text-align: center;
+    /* MAP */
+    iframe {
+        border-radius: 20px;
+        background-color: white;
+        margin-top: 10px;
+        margin-left: 15px;
+        width: 60vw;
+        height: 65vh;
+        padding: 0px;
+        box-shadow: 10px 10px rgba(17, 17, 17, 0.489) ;
+    }
 }
 

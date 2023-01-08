@@ -1,8 +1,10 @@
 #topnav {
     display: flex;
     flex-direction: row;
+    position:relative;
+    top: 0px;
     justify-content: space-around;
-    height: 8vh;
+    min-height: max-content;
     div {
         display: flex;
         align-items:center;
@@ -10,14 +12,14 @@
         font-size: 2em;
         width: 20vw;
         text-align: center;
-        background-color: yellow;
-        color: purple;
+        background-color: $indigo-dye;
+        color: $marigold;
         font-family: 'Permanent Marker', cursive;
         padding: none;
         height: 11vh;
         cursor: pointer;
         &:hover {
-            background-color: purple;
+            background-color: $indigo-dye-2;
             color: yellow;
         }
     }
