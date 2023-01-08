@@ -1,4 +1,4 @@
-export default function menuView () {
+export default function topNavView () {
     const homeUrl = "../index.html";
     const menuUrl = "./menu.html";
     const findUsUrl = "./findUs.html";
