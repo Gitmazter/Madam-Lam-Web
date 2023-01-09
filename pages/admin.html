@@ -10,6 +10,47 @@
 </head>
 <body>
     <h1> Madam Admin </h1>
-    <!--  -->
+    <!-- Inputs for new menu item -->
+    <form>
+        <h2>Add Menu Item</h2>
+        <h3>Dish Price</h3>
+        <input type="number" id="dishPrice">
+        <h3>Dish Name</h3>
+        <input type="text" id="dishName">
+        <h3>Category</h3>
+        <select id="dishCategory">
+            <option value="meal">Meal</option>
+            <option value="snack">Snack</option>
+            <option value="smoothieBowl">Smoothie Bowl</option>
+            <option value="smoothie">Smoothie</option>
+            <option value="juice">Juice</option>
+            <option value="coffee">Coffee</option>
+            <option value="beer">Beer</option>
+        </select>
+        <h3>Allergens/Type</h3>
+        <p id="dishAllergens"></p>
+        <h4>Select as many as applicable</h4>
+        <select id="selectedAllergen">
+            <option value="milk">Milk</option>
+            <option value="egg">Egg</option>
+            <option value="fish">Fish</option>
+            <option value="nuts">Nuts</option>
+            <option value="alcohol">Alcohol</option>
+            <option value="gluten">Gluten</option>
+            <option value="shellfish">Shellfish</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="vegan">Vegan</option>
+            <option value="halal">Halal</option>
+        </select>
+        <button id="addAllergen" type="button">Add allergen/type</button>
+        <h3>Img Url (../images/(category)/(dishName).jpg) "MAKE AUTOMATIC"</h3>
+        <input type="text" id="dishUrl">
+        <br>
+        <br>
+        <button id="saveBtn" type="button">Save</button>
+    </form>
+
+    <!-- ADD LIST OF MENU ITEMS (DELETABLE) -->
+    
 </body>
 </html>

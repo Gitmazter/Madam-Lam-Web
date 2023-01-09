@@ -1,0 +1,5 @@
+[
+{"id":1,"dish":"chicken poutine","price":"90000","category":"meal","allergens":["halal"],"imgUrl":"../images/meal/chicken_poutine.jpg"}
+,{"id":1,"dish":"piggy poutine","price":"90000","category":"meal","allergens":["milk","egg","gluten"],"imgUrl":"../images/meal/piggy_poutine.jpg"}
+,{"id":1,"dish":"shrimp poutine","price":"100000","category":"meal","allergens":["shellfish","milk","egg","gluten"],"imgUrl":"../images/meal/shrimp_poutine.jpg"}
+]

@@ -1,6 +1,6 @@
 export default class MenuItem {
     constructor (id, price, dish, category, allergens, url) {
-        this.id = id;
+        this.id = 1;
         this.dish = dish; 
         this.price = price;
         this.category = category;
